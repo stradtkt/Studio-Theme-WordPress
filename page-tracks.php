@@ -20,6 +20,12 @@ get_header();
                         'post_type' => 'songs',
                     )); ?>
                     <div class="container">
+                        <div class="row mt-2 mb-5">
+                            <div class="col-12">
+                                <h1 class="text-center">Going Global</h1>
+                                <p class="lead text-center">Tracks by Ace Cartier</p>
+                            </div>
+                        </div>
                         <div class="row">
                     <?php 
                     while ( $tracks->have_posts() ) : $tracks->the_post(); ?>
